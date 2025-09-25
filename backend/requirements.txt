@@ -1,0 +1,10 @@
+express
+dotenv
+cors
+mongoose
+body-parser
+email-validator
+express-async-handler
+nodemon
+path
+fs
