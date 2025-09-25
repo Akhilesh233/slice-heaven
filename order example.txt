@@ -1,0 +1,31 @@
+{
+  "user": [
+    {
+      "_id": "6889a941a404315823b0d58f",
+      "name": "User1",
+      "email": "user@example.com"
+    }
+  ],
+  "orderItems": [
+    {
+      "_id": "688245e5013b6b7f1f5eda1b",
+      "name": "pepperoni",
+      "qty": 2,
+      "price": 149
+    },
+    {
+      "_id": "688245e5013b6b7f1f5eda1c",
+      "name": "Veggie Supreme",
+      "qty": 1,
+      "price": 179
+    }
+  ],
+  "deliveryAddress": {
+    "phoneNumber": "99999",
+    "address": "Office",
+    "city": "Delhi",
+    "pincode": "555",
+    "country": "India"
+  },
+  "totalPrice": 477
+}

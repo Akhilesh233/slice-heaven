@@ -1,0 +1,394 @@
+[
+  {
+    "name": "Margherita",
+    "description": "Pizza topped with our herb-infused signature pan sauce and 100% mozzarella cheese",
+    "price": 139,
+    "veg": true,
+    "imageUrl": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/margherita.5f4ef870fb437d0f7e82360758641f2b.1.jpg?width=375"
+  },
+  {
+    "name": "Pepperoni",
+    "description": "Pizza spread with Spicy pepperoni slices with Mozzarella cheese",
+    "price": 149,
+    "veg": false,
+    "imageUrl": "https://ooni.com/cdn/shop/articles/pepperoni-pizza_27477125-507f-4948-ac59-824ac0581df5.jpg?v=1737104605&width=2048"
+  },
+  {
+    "name": "Veggie Supreme",
+    "description": "Fully loaded with fresh vegetables and mozzarella cheese on top",
+    "price": 179,
+    "veg": true,
+    "imageUrl": "https://www.thursdaynightpizza.com/wp-content/uploads/2022/06/veggie-pizza-side-view-out-of-oven.png"
+  },
+  {
+    "name": "BBQ Chicken",
+    "description": "Pizza topped with grilled chicken, BBQ sauce, and red onions",
+    "price": 239,
+    "veg": false,
+    "imageUrl": "https://th.bing.com/th/id/OIP.aO3Dd0RcpmlzxO-rSaiLpgHaFj?w=182&h=136&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+  },
+  {
+    "name": "Paneer Tikka",
+    "description": "Indian style grilled paneer tikka with spicy sauce on top",
+    "price": 199,
+    "veg": true,
+    "imageUrl": "https://th.bing.com/th/id/OIP.8YaoccIY45Kd_Wn6x7afxwHaHG?w=184&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Hawaiian",
+    "description": "Mix of Ham, pineapple, and mozzarella cheese",
+    "price": 279,
+    "veg": false,
+    "imageUrl": "https://th.bing.com/th/id/OIP.iu5wsf30Mzo5vs8ym8jctAHaE8?w=293&h=195&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Farmhouse",
+    "description": "Loaded with Onions, capsicum, tomato, and mushrooms",
+    "price": 299,
+    "veg": true,
+    "imageUrl": "https://th.bing.com/th/id/OIP.zOSJy9NOsQuMmbrR7Am6dwHaF7?w=226&h=181&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Mexican Green Wave",
+    "description": "True flavour of Mexican herbs, jalapenos, and crunchy onions, full mexican style",
+    "price": 229,
+    "veg": true,
+    "imageUrl": "https://th.bing.com/th/id/OIP.XREz8rP6k8-K6IJ3ePDnsgHaE6?w=277&h=183&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Chicken Sausage",
+    "description": "Pizza topped with Chicken sausage and mozzarella cheese",
+    "price": 329,
+    "veg": false,
+    "imageUrl": "https://th.bing.com/th/id/OIP.vxVZz4xLGH7_ymGo98_GuQHaHa?w=188&h=189&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Deluxe Veggie",
+    "description": "Pizza spread with Veggies and loaded with extra cheese",
+    "price": 269,
+    "veg": true,
+    "imageUrl": "https://th.bing.com/th/id/OIP.HW504ntD1pxceZMXRq9XIQHaE8?w=263&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Peri Peri Chicken",
+    "description": "Pizza topped with Peri peri chicken, onions, and capsicum",
+    "price": 449,
+    "veg": false,
+    "imageUrl": "https://th.bing.com/th/id/OIP.3DGb2ce-Y_YPwNt-Q4NPzQHaEP?w=328&h=188&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Cheese N Corn",
+    "description": "Pizza with Sweet corn and mozzarella cheese on top",
+    "price": 119,
+    "veg": true,
+    "imageUrl": "https://th.bing.com/th/id/OIP.CljVPpWhs0yRFX8WDo3_awHaE8?w=224&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Pepper Barbecue Chicken",
+    "description": "Pizza spread with Pepper barbecue chicken and cheese",
+    "price": 139,
+    "veg": false,
+    "imageUrl": "https://th.bing.com/th/id/OIP.2ZTYUoXayyASdfUIWgREFwHaE8?w=278&h=185&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Indi Tandoori Paneer",
+    "description": "Tandoori paneer, capsicum, and red paprika",
+    "price": 199,
+    "veg": true,
+    "imageUrl": "https://th.bing.com/th/id/OIP.ra10pCjsQVB7BEUrVuUwTAAAAA?w=165&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Chicken Golden Delight",
+    "description": "Pizza topped with Golden corn, chicken, and filled with extra cheese",
+    "price": 449,
+    "veg": false,
+    "imageUrl": "https://th.bing.com/th/id/OIP.uNQ7oimMWSMIlkjj08_WNwHaGB?w=208&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+  },
+  {
+    "name": "Veg Extravaganza",
+    "description": "Pizza topped with Black olives, capsicum, onion, and more",
+    "price": 369,
+    "veg": true,
+    "imageUrl": "https://th.bing.com/th/id/OIP.vlQBi_JenPGfK7FOVQl_ZwHaDV?w=305&h=157&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Chicken Dominator",
+    "description": "Pizza loaded with 4 types of chicken",
+    "price": 649,
+    "veg": false,
+    "imageUrl": "https://th.bing.com/th/id/OIP.IlI_dgWxB9QKyJFWxxRI9AAAAA?w=163&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+  },
+  {
+    "name": "Peppy Paneer",
+    "description": "Paneer, capsicum, and spicy red pepper",
+    "price": 389,
+    "veg": true,
+    "imageUrl": "https://th.bing.com/th/id/OIP.vKNcCdIkDz7XoDmtJM-6JgHaE8?w=266&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Non Veg Supreme",
+    "description": "Supreme combination of chicken and meat",
+    "price": 599,
+    "veg": false,
+    "imageUrl": "https://th.bing.com/th/id/OIP.nMLNEG59C8YIPszoB9eJDwAAAA?w=163&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+  },
+  {
+    "name": "Cheese Burst",
+    "description": "Extra cheese loaded pizza",
+    "price": 219,
+    "veg": true,
+    "imageUrl": "https://th.bing.com/th/id/OIP.95osilUQ1qY0TiNToH8jiwHaE8?w=235&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Spicy Triple Tango",
+    "description": "Spicy paneer, jalapenos, and red paprika",
+    "price": 399,
+    "veg": true,
+    "imageUrl": "https://th.bing.com/th/id/OIP.JeX5Ou7sPCSxfgSpPPw8TQHaHa?w=169&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Chicken Fiesta",
+    "description": "Grilled chicken, onion, and capsicum",
+    "price": 449,
+    "veg": false,
+    "imageUrl": "https://th.bing.com/th/id/OIP.DR2gdCxD8jPkOons1e-fmAAAAA?w=163&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Corn & Cheese",
+    "description": "Corn and cheese delight",
+    "price": 109,
+    "veg": true,
+    "imageUrl": "https://th.bing.com/th/id/OIP.CljVPpWhs0yRFX8WDo3_awHaE8?w=274&h=183&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Mushroom Magic",
+    "description": "Mushrooms and cheese",
+    "price": 149,
+    "veg": true,
+    "imageUrl": "https://th.bing.com/th/id/OIP.BSifL3I3DG7jGTYbtE6QngHaE8?w=244&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Chicken Italiano",
+    "description": "Chicken, olives, and Italian herbs",
+    "price": 489,
+    "veg": false,
+    "imageUrl": "https://th.bing.com/th/id/OIP.oTvlWgauFEwCVJk7ixdfxQHaEK?w=314&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+  },
+  {
+    "name": "Tandoori Onion",
+    "description": "Tandoori onion and cheese",
+    "price": 129,
+    "veg": true,
+    "imageUrl": "https://th.bing.com/th/id/OIP.GuHb1hfJQW6DyblKjkFnHgHaEc?w=299&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Double Cheese Margherita",
+    "description": "Double cheese and tomato sauce",
+    "price": 149,
+    "veg": true,
+    "imageUrl": "https://th.bing.com/th/id/OIP.HVngJUjP7mizcTdH3QUeCgHaE8?w=254&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Chicken Pepperoni",
+    "description": "Chicken pepperoni and cheese",
+    "price": 399,
+    "veg": false,
+    "imageUrl": "https://th.bing.com/th/id/OIP.HDy7QVVfdz9-MFnqvTy8mgHaEz?w=281&h=182&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Veggie Paradise",
+    "description": "Veggies, cheese, and paradise sauce",
+    "price": 199,
+    "veg": true,
+    "imageUrl": "https://th.bing.com/th/id/OIP._lEq8-xpPFCOjxDjCA2QjwHaC3?w=320&h=135&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Fiery Sausage",
+    "description": "Spicy sausage and cheese",
+    "price": 349,
+    "veg": false,
+    "imageUrl": "https://th.bing.com/th/id/OIP.E4xot0iOrxYfyeUyFbQ-tQHaHa?w=178&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Classic Tomato",
+    "description": "Tomato and cheese classic",
+    "price": 119,
+    "veg": true,
+    "imageUrl": "https://th.bing.com/th/id/OIP.WxLRm56-lMMM7H3ljujKKgHaHa?w=167&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Chicken Keema",
+    "description": "Chicken keema and cheese",
+    "price": 449,
+    "veg": false,
+    "imageUrl": "https://th.bing.com/th/id/OIP.HKHkzX-pWloCHBu57TQeqQHaHa?w=167&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+  },
+  {
+    "name": "Veggie Delight",
+    "description": "Delightful mix of veggies and cheese",
+    "price": 199,
+    "veg": true,
+    "imageUrl": "https://th.bing.com/th/id/OIP.GAyFZrjue24Xv0iSkDIy2QHaE8?w=291&h=194&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Chicken Maximus",
+    "description": "Max chicken and cheese",
+    "price": 549,
+    "veg": false,
+    "imageUrl": "https://th.bing.com/th/id/OIP.p8zifktD86F0lfeeLZ5SDQHaE8?w=258&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Paneer Makhani",
+    "description": "Paneer in makhani sauce",
+    "price": 149,
+    "veg": true,
+    "imageUrl": "https://th.bing.com/th/id/OIP.yn46uGUPWGiwMrRM1nkpYgHaG4?w=183&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Chicken BBQ",
+    "description": "BBQ chicken and cheese",
+    "price": 499,
+    "veg": false,
+    "imageUrl": "https://th.bing.com/th/id/OIP.IW9dTEM1rixUI1PlO_ApkgHaLH?w=182&h=273&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+  },
+  {
+    "name": "Veggie Crunch",
+    "description": "Crunchy veggies and cheese",
+    "price": 249,
+    "veg": true,
+    "imageUrl": "https://th.bing.com/th/id/OIP.FHqKuPcDeFnkKZARnFSqQAHaFj?w=257&h=193&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Chicken Tikka",
+    "description": "Chicken tikka and cheese",
+    "price": 459,
+    "veg": false,
+    "imageUrl": "https://th.bing.com/th/id/OIP.D1W94c-QoUwDeY5oxb42ewHaEz?w=268&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Veggie Lovers",
+    "description": "Loaded with veggies and cheese",
+    "price": 149,
+    "veg": true,
+    "imageUrl": "https://th.bing.com/th/id/OIP.y5bcNNBikWEv827Mugrw-AHaHn?w=173&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+  },
+  {
+    "name": "Chicken Lovers",
+    "description": "Loaded with chicken and cheese",
+    "price": 549,
+    "veg": false,
+    "imageUrl": "https://th.bing.com/th/id/OIP.RMVLSj_IcxFW-8qUueIlcwAAAA?w=160&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Cheese Lovers",
+    "description": "Extra cheese for cheese lovers",
+    "price": 299,
+    "veg": true,
+    "imageUrl": "https://th.bing.com/th/id/OIP.tqVzaBjEFv3wowFgNnjBmgHaE7?w=247&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Paneer Lovers",
+    "description": "Paneer and cheese for paneer lovers",
+    "price": 399,
+    "veg": true,
+    "imageUrl": "https://th.bing.com/th/id/OIP.wrx-lUsJr-AhEp3Dc1Pv-QHaE8?w=249&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Chicken Supreme",
+    "description": "Supreme chicken and cheese",
+    "price": 599,
+    "veg": false,
+    "imageUrl": "https://th.bing.com/th/id/OIP.0s5o-atJZTIJSwxwT7G0MQHaFX?w=235&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Veg Supreme",
+    "description": "Supreme veggies and cheese",
+    "price": 329,
+    "veg": true,
+    "imageUrl": "https://th.bing.com/th/id/OIP.e8DKB-liIZTbNTNwfw1m0gHaE8?w=293&h=195&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Paneer Supreme",
+    "description": "Supreme paneer and cheese",
+    "price": 249,
+    "veg": true,
+    "imageUrl": "https://th.bing.com/th/id/OIP.H-esghhWN8mPQBmD09wAOAHaE8?w=249&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Chicken Paneer Mix",
+    "description": "Chicken and paneer combo",
+    "price": 549,
+    "veg": false,
+    "imageUrl": "https://th.bing.com/th/id/OIP.5RIq5OIvFizlaXJOwabwTAHaFj?w=257&h=193&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Veggie Paneer Mix",
+    "description": "Veggies and paneer combo",
+    "price": 379,
+    "veg": true,
+    "imageUrl": "https://th.bing.com/th/id/OIP.BRduE5XkZnR14d0gS_D-fgHaHa?w=200&h=200&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Classic Cheese",
+    "description": "Classic cheese pizza",
+    "price": 199,
+    "veg": true,
+    "imageUrl": "https://th.bing.com/th/id/OIP.xiEZp1_eoVH056vwfDjBhwHaDt?w=350&h=175&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Spicy Veggie",
+    "description": "Spicy veggies and cheese",
+    "price": 299,
+    "veg": true,
+    "imageUrl": "https://th.bing.com/th/id/OIP.DmSJSXLgtFUODSafQbt70wHaFj?w=251&h=188&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Spicy Chicken",
+    "description": "Spicy chicken and cheese",
+    "price": 499,
+    "veg": false,
+    "imageUrl": "https://th.bing.com/th/id/OIP.S76dlkGPB5p9_03_h1_ZhQHaEL?w=314&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Paneer Delight",
+    "description": "Paneer and cheese delight",
+    "price": 349,
+    "veg": true,
+    "imageUrl": "https://th.bing.com/th/id/OIP.3tujUdeaYw81Rm0ISSgolwHaJ4?w=139&h=185&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Chicken Delight",
+    "description": "Chicken and cheese delight",
+    "price": 499,
+    "veg": false,
+    "imageUrl": "https://th.bing.com/th/id/OIP.LpdHDEvBWs6XrezWHm76HgHaHa?w=198&h=198&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Veggie Treat",
+    "description": "Treat of veggies and cheese",
+    "price": 249,
+    "veg": true,
+    "imageUrl": "https://th.bing.com/th/id/OIP.lJX2Z9ggpkhTTwq0xe2VsAHaJ3?w=182&h=243&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Chicken Treat",
+    "description": "Treat of chicken and cheese",
+    "price": 549,
+    "veg": false,
+    "imageUrl": "https://th.bing.com/th/id/OIP.h93KanGt1RWc1VgDSuepWgHaHa?w=172&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Paneer Treat",
+    "description": "Treat of paneer and cheese",
+    "price": 399,
+    "veg": true,
+    "imageUrl": "https://th.bing.com/th/id/OIP.ymbXxi5qoMlDolBgp4xxzgHaE7?w=265&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "name": "Cheese Treat",
+    "description": "Treat of cheese",
+    "price": 199,
+    "veg": true,
+    "imageUrl": "https://th.bing.com/th/id/OIP.j3bvaglGwvu2Tb8zZ7ZHFQHaE8?w=296&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  }
+]
