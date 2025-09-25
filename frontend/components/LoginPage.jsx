@@ -56,7 +56,7 @@ function Login () {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.get('http://localhost:5000/v1/users');
+            const response = await axios.get('https://slice-heaven-insl.onrender.com/v1/users');
             setUsers(response.data);
             const formErrors = validate(response.data);
             if (Object.keys(formErrors).length === 0) {

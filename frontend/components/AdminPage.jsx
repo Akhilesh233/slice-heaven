@@ -91,7 +91,7 @@ function AdminPage () {
     // fetch user details
     const fetchUserDetails = async () => {
         try {
-            const response = await axios.get('http://localhost:5000/v1/users');
+            const response = await axios.get('https://slice-heaven-insl.onrender.com/v1/users');
             setUserDetails(response.data);
         } catch (error) {
             console.log('Failed to fetch user details', error);
@@ -102,7 +102,7 @@ function AdminPage () {
     // fetch pizza order Stats
     const fetchOrderStats = async () => {
         try {
-            const response = await axios.get('http://localhost:5000/v1/orders/orderStats');
+            const response = await axios.get('https://slice-heaven-insl.onrender.com/v1/orders/orderStats');
             setOrderStats(response.data);
         } catch (error) {
             console.log('Failed to fetch order Stats', error);
@@ -113,7 +113,7 @@ function AdminPage () {
     // fetch pizza order details with pagination and filters
     const fetchOrderDetails = async () => {
         try {
-            const response = await axios.get(`http://localhost:5000/v1/orders`);
+            const response = await axios.get(`https://slice-heaven-insl.onrender.com/v1/orders`);
             setOrderDetails(response.data || []);
             setFilteredOrders(response.data || []);
         } catch (error) {
@@ -125,7 +125,7 @@ function AdminPage () {
     // fetch pizzas
     const fetchPizzas = async (page = 1, searchPizzaQuery = '') => {
         try {
-            let url = 'http://localhost:5000/v1/pizzas';
+            let url = 'https://slice-heaven-insl.onrender.com/v1/pizzas';
             if (searchPizzaQuery)
                 url += `/filter?&name=${searchPizzaQuery}&page=${page}&limit=6`;
             else
@@ -224,7 +224,7 @@ function AdminPage () {
         setPizzaErrors(formErrors);
         if (Object.keys(formErrors).length > 0) return;
         try {
-            const response = await axios.post('http://localhost:5000/v1/pizzas/add', pizzaForm);
+            const response = await axios.post('https://slice-heaven-insl.onrender.com/v1/pizzas/add', pizzaForm);
             if (response.status === 201) {
                 alert('Pizza added successfully!');
                 setIsAddPizzaOpen(false);
@@ -245,7 +245,7 @@ function AdminPage () {
         setPizzaErrors(formErrors);
         if (Object.keys(formErrors).length > 0) return;
         try {
-            const response = await axios.put(`http://localhost:5000/v1/pizzas/${pizzaForm._id}`, pizzaForm);
+            const response = await axios.put(`https://slice-heaven-insl.onrender.com/v1/pizzas/${pizzaForm._id}`, pizzaForm);
             if (response.status === 200) {
                 alert('Pizza updated successfully!');
                 setUpdatePizzaForm(!updatePizzaForm);
@@ -280,7 +280,7 @@ function AdminPage () {
     // handle confirm delete user functionality
     const confirmDeleteUser = async () => {
         try {
-            const response = await axios.delete(`http://localhost:5000/v1/users/${deleteUser._id}`);
+            const response = await axios.delete(`https://slice-heaven-insl.onrender.com/v1/users/${deleteUser._id}`);
             if (response.status === 200) {
                 alert('User deleted successfully!');
                 setShowDeleteUserConfirm(false);
@@ -324,7 +324,7 @@ function AdminPage () {
         setUserErrors(formErrors);
         if (Object.keys(formErrors).length > 0) return;
         try {
-            const response = await axios.put(`http://localhost:5000/v1/users/${editUser._id}`, editUser);
+            const response = await axios.put(`https://slice-heaven-insl.onrender.com/v1/users/${editUser._id}`, editUser);
             if (response.status === 200) {
                 alert('User updated successfully!');
                 setEditUser({ name: '', email: '', password: '' });
@@ -356,7 +356,7 @@ function AdminPage () {
         setUserErrors(formErrors);
         if (Object.keys(formErrors).length > 0) return;
         try {
-            const response = await axios.post('http://localhost:5000/v1/users/add', addUser);
+            const response = await axios.post('https://slice-heaven-insl.onrender.com/v1/users/add', addUser);
             if (response.status === 201) {
                 alert('User added successfully!');
                 setAddUser({ name: '', email: '', password: '' });
@@ -379,7 +379,7 @@ function AdminPage () {
     const confirmCancel = async () => {
         try {
             const orderId = cancelOrder;
-            await axios.put(`http://localhost:5000/v1/orders/${orderId}`, {
+            await axios.put(`https://slice-heaven-insl.onrender.com/v1/orders/${orderId}`, {
                 status: 'Cancelled'
             });
             fetchOrderDetails();
@@ -466,7 +466,7 @@ function AdminPage () {
     // const confirmRemove = async () => {
     //     try {
     //         const pizzaId = removePizza._id;
-    //         await axios.delete(`http://localhost:5000/v1/pizzas/${pizzaId}`);
+    //         await axios.delete(`https://slice-heaven-insl.onrender.com/v1/pizzas/${pizzaId}`);
     //         fetchPizzas();
     //         alert(`${removePizza.name} has been removed`);
     //         setError('');
@@ -632,7 +632,7 @@ function AdminPage () {
     const confirmStatusChange = async () => {
         try {
             const order = statusChange;
-            await axios.put(`http://localhost:5000/v1/orders/${order._id}`, {
+            await axios.put(`https://slice-heaven-insl.onrender.com/v1/orders/${order._id}`, {
                 status: order.status
             });
             fetchOrderDetails();

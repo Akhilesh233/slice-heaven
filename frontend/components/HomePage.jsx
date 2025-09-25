@@ -54,7 +54,7 @@ function HomePage () {
     // handles fetching the pizzas from the backend including filter, sort and pagination functionalities
     const fetchPizzas = async (filterQuery, page = 1, sort = '', searchQuery = '') => {
         try {
-            let url = 'http://localhost:5000/v1/pizzas';
+            let url = 'https://slice-heaven-insl.onrender.com/v1/pizzas';
             if (filterQuery && filterQuery !== 'all') {
                 url += `/filter?veg=${filterQuery}&page=${page}&limit=12`;
             } else {
@@ -279,7 +279,7 @@ function HomePage () {
             };
 
             // send order to backend 
-            const response = await axios.post('http://localhost:5000/v1/orders/add', orderData);
+            const response = await axios.post('https://slice-heaven-insl.onrender.com/v1/orders/add', orderData);
             
             if (response.status === 201) {
                 alert('Order placed successfully!');

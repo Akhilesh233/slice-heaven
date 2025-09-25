@@ -62,7 +62,7 @@ function MyOrdersPage () {
                 setError('User not logged in');
                 return;
             }
-            const response = await axios.get(`http://localhost:5000/v1/orders/userOrderStats/${user._id}`);
+            const response = await axios.get(`https://slice-heaven-insl.onrender.com/v1/orders/userOrderStats/${user._id}`);
             setMessage(response.data);
         } catch (error) {
             console.error('Error fetching data:', error);
@@ -77,7 +77,7 @@ function MyOrdersPage () {
                 setError('User not logged in');
                 return;
             }
-            const response = await axios.get(`http://localhost:5000/v1/orders/${user._id}`);
+            const response = await axios.get(`https://slice-heaven-insl.onrender.com/v1/orders/${user._id}`);
             setOrderDetails(response.data);
             setFilteredOrders(response.data);
         } catch (error) {
@@ -189,7 +189,7 @@ function MyOrdersPage () {
     const confirmCancel = async () => {
         try {
             const orderId = cancelOrder;
-            await axios.put(`http://localhost:5000/v1/orders/${orderId}`, {
+            await axios.put(`https://slice-heaven-insl.onrender.com/v1/orders/${orderId}`, {
                 status: 'Cancelled'
             });
             fetchOrderDetails();
