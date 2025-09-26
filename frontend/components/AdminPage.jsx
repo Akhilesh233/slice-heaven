@@ -69,6 +69,7 @@ function AdminPage () {
         price: '',
         imageUrl: ''
     });
+    const [loading, setLoading] = useState(true);
 
     const ordersPerPage = 5;
     const navigate = useNavigate();
@@ -671,6 +672,22 @@ function AdminPage () {
         );
     };
 
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setLoading(false);
+        }, 2000);
+        return () => clearTimeout(timer);
+    }, []);
+
+    if (loading) {
+        return (
+            <div className="loader">
+                <div className="spinner"></div>
+                <p>Loading Slice Heaven...</p>
+            </div>
+        );
+    }
+
     return (
         <div className="admin-page">
             {/* Header Section */}
@@ -1151,7 +1168,7 @@ function AdminPage () {
                                         >
                                             Previous
                                         </button>
-                                        <span style={{ padding: '8px 16px' }}>
+                                        <span style={{ padding: '8px' }}>
                                             Page {orderCurrentPage} of {orderPages}
                                         </span>
                                         <button

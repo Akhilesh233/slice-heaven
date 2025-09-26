@@ -31,6 +31,45 @@ h1 {
   min-height: 100vh;
 }
 
+.loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  color: #333;
+  font-family: "Arial", sans-serif;
+}
+
+.spinner {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url(../public/pizza-loader.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  animation: spin 2s linear infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loader p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0;
+}
+
 /* Hero Section */
 .hero-section {
   display: flex;
@@ -307,7 +346,7 @@ h1 {
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  min-height: 94.5vh;
+  min-height: 94vh;
   color: white;
 }
 
@@ -1195,6 +1234,7 @@ button {
 
   .pagination-btn {
     max-width: 200px;
+    padding: 10px;
   }
 
   .updatePizza-form {
@@ -2334,6 +2374,8 @@ button {
 
   .status-card {
     font-size: xx-small;
+    padding: 5px;
+    margin-left: -12px;
   }
 
   .price-card {

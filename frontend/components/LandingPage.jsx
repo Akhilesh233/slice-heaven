@@ -1,8 +1,17 @@
 import '../src/App.css'
 import { useNavigate } from 'react-router-dom';
+import { useState, useEffect } from 'react';
 
 function LandingPage () {
     const navigate = useNavigate();
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setLoading(false);
+        }, 1200);
+        return () => clearTimeout(timer);
+    }, []);
 
     const handleLogin = async (e) => {
         e.preventDefault();
@@ -14,6 +23,15 @@ function LandingPage () {
         navigate('/login');
     };
     
+    if (loading) {
+        return (
+            <div className="loader">
+                <div className="spinner"></div>
+                <p>Loading Slice Heaven...</p>
+            </div>
+        );
+    }
+
     return (
         <div className="landing-page">
             {/* Hero Section */}
@@ -22,7 +40,7 @@ function LandingPage () {
                     <h1>Slice Heaven Pizza</h1>
                     <p className="hero-subtitle">Delicious Pizzas Made with Love and Fresh Ingredients</p>
                     <p className="hero-description">
-                        Experience the perfect blend of crispy crust, savory sauces, and premium toppings. 
+                        Experience the perfect blend of crispy crust, savory sauces, and premium toppings.
                         From classic Margherita to gourmet specialties, we've got a pizza for every craving.
                     </p>
                     <div className="hero-buttons">

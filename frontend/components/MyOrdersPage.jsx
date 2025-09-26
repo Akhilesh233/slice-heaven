@@ -23,6 +23,7 @@ function MyOrdersPage () {
     // const [orderToReorder, setOrderToReorder] = useState([]);
     const [showCancelConfirm, setShowCancelConfirm] = useState(false);
     const [cancelOrder, setCancelOrder] = useState([]);
+    const [loading, setLoading] = useState(true);
 
     const ordersPerPage = 5;
     const navigate = useNavigate();
@@ -281,6 +282,22 @@ function MyOrdersPage () {
         // Save the PDF
         doc.save(`invoice-${selectedOrder._id.slice(-8)}.pdf`);
     };
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setLoading(false);
+        }, 1000);
+        return () => clearTimeout(timer);
+    }, []);
+
+    if (loading) {
+        return (
+            <div className="loader">
+                <div className="spinner"></div>
+                <p>Loading Slice Heaven...</p>
+            </div>
+        );
+    }
 
     return (
         <div className="admin-page">

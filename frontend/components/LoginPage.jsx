@@ -1,5 +1,5 @@
 import axios from 'axios'
-import {useState, useContext} from 'react';
+import {useState, useContext, useEffect} from 'react';
 import { useNavigate } from 'react-router-dom';
 import { AuthContext } from '../src/AuthContext';
 import '../src/App.css'
@@ -13,6 +13,7 @@ function Login () {
     const [errors, setErrors] = useState({});
     const [, setUsers] = useState([]); // this is the state that holds the user data and this the is format
     const navigate = useNavigate();
+    const [loading, setLoading] = useState(true);
     const { setIsAuthenticated, loginUser } = useContext(AuthContext);
 
     // previous way of email -> password checking (legacy code) [DO NOT REMOVE]
@@ -74,6 +75,22 @@ function Login () {
             setErrors(error, {fetch: 'Failed to fetch user details from backend'});
         }
     };
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setLoading(false);
+        }, 100);
+        return () => clearTimeout(timer);
+    }, []);
+
+    if (loading) {
+        return (
+            <div className="loader">
+                <div className="spinner"></div>
+                <p>Loading Slice Heaven...</p>
+            </div>
+        );
+    }
 
     return (
         <div className="login-page">

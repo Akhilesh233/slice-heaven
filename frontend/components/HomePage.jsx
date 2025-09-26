@@ -17,6 +17,7 @@ function HomePage () {
     const [cart, setCart] = useState([]);
     const [cartQuantity, setCartQuantity] = useState(0);
     const [isCartOpen, setIsCartOpen] = useState(false);
+    const [loading, setLoading] = useState(true);
     
     // delivery form field state
     const [deliveryForm, setDeliveryForm] = useState({
@@ -308,6 +309,22 @@ function HomePage () {
             alert('Failed to place order. This could be possible because you are trying to place the same order at same place. Please try again later after 10 minutes.');
         }
     };
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setLoading(false);
+        }, 2000);
+        return () => clearTimeout(timer);
+    }, []);
+
+    if (loading) {
+        return (
+            <div className="loader">
+                <div className="spinner"></div>
+                <p>Loading Slice Heaven...</p>
+            </div>
+        );
+    }
     
     return (
         <div className="home-page">
