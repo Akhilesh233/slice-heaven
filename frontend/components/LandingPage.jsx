@@ -49,7 +49,7 @@ function LandingPage () {
                     </div>
                 </div>
                 <div className='hero-image'>
-                    <img src="/dark.jpg" alt="Delicious pizza with fresh ingredients" />
+                    <img src="/sh-banner.png" alt="Delicious pizza with fresh ingredients" />
                 </div>
             </div>
 

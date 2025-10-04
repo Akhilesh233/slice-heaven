@@ -1192,6 +1192,7 @@ function AdminPage () {
                         <div className='details-card'>
                             <h1>Amount Analysis</h1>
                             <div className='details'>
+                                Coming Soon as a new feature! 😊
                             </div>
                         </div>
                     </div>
