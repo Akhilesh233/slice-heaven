@@ -138,7 +138,7 @@ function Login () {
                     </p> */}
                 </div>
                 <div className='login-hero-image'>
-                    <img src="/sh-banner2.png" alt="Delicious pizza waiting for you" />
+                    <img src="/sh-login-banner.png" alt="Delicious pizza waiting for you" />
                 </div>
             </div>
         </div>
