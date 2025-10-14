@@ -2213,15 +2213,6 @@ button {
 }
 
 @media (max-width: 768px) {
-  .admin-page {
-    padding: 15px;
-  }
-
-  .admin-header {
-    padding: 20px;
-    border-radius: 10px;
-  }
-
   .admin-title {
     font-size: 2rem;
     margin-bottom: 15px;
